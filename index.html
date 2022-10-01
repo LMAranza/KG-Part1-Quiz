@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+</head>
+
+<style>
+    body {
+        background: #fff ;
+    }
+
+    .bg-img {
+        background-image:url(cover.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 85vh;
+    }
+
+    .bg-img2 {
+        background-image:url(facilities.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 85vh;
+    }
+    h3 > span, .icon > .fa {
+        color: #dc3545;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-danger" href="#">FITNESS PAGE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <section class="container-fluid my-4">
+            <div class="d-flex bg-img flex-column w-100 justify-content-center">
+                <h2 class="display-5 text-center text-white">always feeling tired?</h2>
+                <h5 class="display-4 text-center text-danger font-weight-bold">WORK OUT WITH US NOW</h5>
+            
+                <div class="btnn text-center">
+                    <button type="button" class="btn btn-outline-light w-10 rounded-pill">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="jumbotron my-5 mx-5" id="facilities">
+                <h3 class="display-5 text-center">Spacious<span class="text-danger">
+                    Facilities
+                </span></h3>
+                <p class="lead text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="d-flex bg-img2 flex-column w-100 justify-content-center">
+                </div>
+        </section>
+
+        <section class="container my-5" id="services">
+            <div class="row">
+                <h3 class="display-5">Our<span> Services</span></h3>
+            <div class="col-md-4">
+                <div class="box shadow p-2 my-3">
+                    <div class="icon text-center my-3">
+                        <i class="fa fa-solid fa-heart-pulse fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="display-6 text-center">Cardio Exercises</h3>
+                    <br>
+                    <p class="text-left lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                        <div class="btnn text-center">
+                            <button type="button" class="btn btn-warning w-10 btn-pill">Avail</button>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box shadow p-2 my-3">
+                    <div class="icon text-center my-3">
+                        <i class="fa fa-solid fa-person fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="display-6 text-center">Calisthenics</h3>
+                    <br>
+                    <p class="text-left lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                        <div class="btnn text-center">
+                            <button type="button" class="btn btn-warning w-10 btn-pill">Avail</button>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box shadow p-2 my-3">
+                    <div class="icon text-center my-3">
+                        <i class="fa fa-solid fa-heart-pulse fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="display-6 text-center">Machine Exercises</h3>
+                    <br>
+                    <p class="text-left lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                        <div class="btnn text-center">
+                            <button type="button" class="btn btn-warning w-10 btn-pill">Avail</button>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="jumbotron my-5 container" id="about">
+            <div class="row">
+                <div class="col-md-7">
+                    <h3 class="display-5">About<span class="text-danger">
+                        Us
+                    </span></h3>
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <button type="button" class="btn btn-dark shadow rounded-pill">Read More</button>
+                </div>
+                <br>
+                <br>
+                <div class="col-md-5">
+                    <img src="aboutus.jpg" class="img-fluid shadow" alt="about"> 
+                </div>
+            </div>
+        </section>
+
+</body>
+</html>
